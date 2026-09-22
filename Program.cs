@@ -58,7 +58,7 @@ if (File.Exists(jsonFileName))
 
 var app = builder.Build();
 
-Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("Ngo9BigBOggjHTQxAR8/V1JAaF1cX2hIfkx3Qnxbf1x2ZFBMZVhbRHVPIiBoS35RcEVqW31fcnRSRGhbVUJ/VEFZ");
+Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("");
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
