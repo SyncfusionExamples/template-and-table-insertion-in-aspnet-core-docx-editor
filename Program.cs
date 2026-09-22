@@ -75,8 +75,7 @@ app.UseStaticFiles();
 app.MapControllers();
 
 
-// Configure base path for path mapping to syncfusiondemo.com
-var basePath = "/syncfusiondemo";
+var basePath = "/template-and-table-insertion-in-aspnet-core-docx-editor";
 app.UsePathBase(basePath);
 
 app.UseStaticFiles(new StaticFileOptions
