@@ -58,7 +58,7 @@ if (File.Exists(jsonFileName))
 
 var app = builder.Build();
 
-Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("");
+Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("Ngo9BigBOggjHTQxAR8/V1JAaF1cX2hIfkx3Qnxbf1x2ZFBMZVhbRHVPIiBoS35RcEVqW31fcnRSRGhbVUJ/VEFZ");
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
@@ -75,8 +75,7 @@ app.UseStaticFiles();
 app.MapControllers();
 
 
-// Configure base path for path mapping to syncfusiondemo.com
-var basePath = "/syncfusiondemo";
+var basePath = "/template-and-table-insertion-in-aspnet-core-docx-editor";
 app.UsePathBase(basePath);
 
 app.UseStaticFiles(new StaticFileOptions
