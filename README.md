@@ -25,8 +25,8 @@ Create and customize tables with the following capabilities:
 
 Install the following before running the sample:
 
-1. .NET 8.0 SDK
-2. Visual Studio 2022 or Visual Studio Code
+1. .NET 10.0 SDK
+2. Visual Studio 2026 or Visual Studio Code
 3. A valid Syncfusion license key for the Syncfusion components
 4. Modern web browser (Chrome, Firefox, Edge, Safari)
 
